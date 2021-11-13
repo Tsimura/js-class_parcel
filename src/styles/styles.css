@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+
+.location,
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temperature {
+  flex-direction: column;
+}
+
+.digree-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.digree-box span {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.digree-box h2 {
+  font-size: 40px;
+}
+
+.date {
+  width: 490 px;
+  height: 277 px;
+  padding-top: 36 px;
+  order-radius: 35 px;
+  background-color: rgba(16, 33, 54, 0.59);
+  margin: 0 auto;
+  color: #fff;
+  font-family: Lato;
+  font-weight: 400;
+  padding-top: 26 px;
+}
