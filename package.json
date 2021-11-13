@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://Tsimura.github.io/js-class_parcel",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/*.html -p 3000 --open",
     "build": "parcel build src/*.html --public-url /js-class_parcel/"
   },
   "repository": {
@@ -24,5 +24,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "skycons": "^1.0.0"
   }
 }
