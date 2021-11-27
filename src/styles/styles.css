@@ -48,11 +48,15 @@ body {
   width: 490 px;
   height: 277 px;
   padding-top: 36 px;
-  order-radius: 35 px;
+  border-radius: 35 px;
   background-color: rgba(16, 33, 54, 0.59);
   margin: 0 auto;
   color: #fff;
   font-family: Lato;
   font-weight: 400;
   padding-top: 26 px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 }

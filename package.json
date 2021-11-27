@@ -26,6 +26,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "skycons": "^1.0.0"
+    "skycons": "^1.0.0",
+    "tui-pagination": "^3.4.1"
   }
 }
